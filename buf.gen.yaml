@@ -1,0 +1,8 @@
+version: v1
+plugins:
+  - name: go
+    out: .
+    opt: module=vasystem-api-example-go
+  - name: go-grpc
+    out: .
+    opt: module=vasystem-api-example-go
