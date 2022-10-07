@@ -3,6 +3,7 @@ module github.com/vasystem/vasystem-api-go
 go 1.19
 
 require (
+	github.com/vasystem/api v0.0.0-20221007192747-1ee9146bd936
 	golang.org/x/oauth2 v0.0.0-20221006150949-b44042a4b9c1
 	google.golang.org/grpc v1.50.0
 	google.golang.org/protobuf v1.28.1

@@ -5,7 +5,7 @@ import (
 	"crypto/tls"
 	"fmt"
 
-	vasystemapipb "github.com/vasystem/vasystem-api-go/genproto/pb/vasystem/api/v2"
+	vasystemapipb "github.com/vasystem/api/grpc/go/vasystem/api/v2"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/clientcredentials"
 	"google.golang.org/grpc"
