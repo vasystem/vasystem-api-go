@@ -1,8 +1,12 @@
 version: v1
+managed:
+  enabled: true
+  go_package_prefix:
+    default: github.com/vasystem/vaystem-api-go/genproto
 plugins:
   - name: go
-    out: .
-    opt: module=vasystem-api-example-go
+    out: genproto
+    opt: paths=source_relative
   - name: go-grpc
-    out: .
-    opt: module=vasystem-api-example-go
+    out: genproto
+    opt: paths=source_relative

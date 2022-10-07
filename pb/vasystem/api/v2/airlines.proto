@@ -2,8 +2,6 @@ syntax = "proto3";
 
 package vasystem.api.v2;
 
-option go_package = "vasystem-api-example-go/genproto/vasystem/api/v2;vasystemapi";
-
 service AirlinesService {
   // List airlines
   rpc ListAirlines(ListAirlinesRequest) returns (ListAirlinesResponse) {}

@@ -1,4 +1,4 @@
-package main
+package vasystemapi
 
 import (
 	"encoding/json"

@@ -4,7 +4,7 @@
 // - protoc             (unknown)
 // source: pb/vasystem/api/v2/airlines.proto
 
-package vasystemapi
+package apiv2
 
 import (
 	context "context"
