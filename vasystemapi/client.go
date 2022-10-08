@@ -55,3 +55,7 @@ func (c *Client) Airlines() vasystemapipb.AirlinesServiceClient {
 func (c *Client) Routes() vasystemapipb.RoutesServiceClient {
 	return vasystemapipb.NewRoutesServiceClient(c.conn)
 }
+
+func (c *Client) VirtualAirlines() vasystemapipb.VirtualAirlinesServiceClient {
+	return vasystemapipb.NewVirtualAirlinesServiceClient(c.conn)
+}

@@ -19,11 +19,3 @@ go get github.com/vasystem/vasystem-api-go
 go build ./cmd/vaystem-api-example-go
 ./vasystem-api-example-go -domain "staralliancevirtual.org" -client-id "client-id" -client-secret "client-secret"
 ```
-
-## Regenerating protos
-
-Install [buf](https://buf.build) and run:
-
-```shell
-buf generate
-```

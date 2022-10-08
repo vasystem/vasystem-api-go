@@ -41,6 +41,13 @@ func main() {
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 
+	virtualAirline, err := client.VirtualAirlines().GetVirtualAirline(ctx, &vasystemapipb.GetVirtualAirlineRequest{})
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	printMessage(virtualAirline)
+
 	airlines, err := client.Airlines().ListAirlines(ctx, &vasystemapipb.ListAirlinesRequest{})
 	if err != nil {
 		log.Fatal(err)
