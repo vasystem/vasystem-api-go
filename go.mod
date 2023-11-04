@@ -3,18 +3,20 @@ module github.com/vasystem/vasystem-api-go
 go 1.19
 
 require (
-	github.com/vasystem/api v0.0.0-20221008143422-4fd21fa77fd4
-	golang.org/x/oauth2 v0.0.0-20221006150949-b44042a4b9c1
-	google.golang.org/grpc v1.50.0
-	google.golang.org/protobuf v1.28.1
+	buf.build/gen/go/vasystem/api/grpc/go v1.3.0-20221008143436-bf31ebf1b0ce.2
+	buf.build/gen/go/vasystem/api/protocolbuffers/go v1.31.0-20221008143436-bf31ebf1b0ce.2
+	golang.org/x/oauth2 v0.13.0
+	google.golang.org/grpc v1.59.0
+	google.golang.org/protobuf v1.31.0
 )
 
 require (
-	cloud.google.com/go/compute v1.10.0 // indirect
-	github.com/golang/protobuf v1.5.2 // indirect
-	golang.org/x/net v0.0.0-20221004154528-8021a29435af // indirect
-	golang.org/x/sys v0.0.0-20220928140112-f11e5e49a4ec // indirect
-	golang.org/x/text v0.3.7 // indirect
+	cloud.google.com/go/compute v1.23.0 // indirect
+	cloud.google.com/go/compute/metadata v0.2.3 // indirect
+	github.com/golang/protobuf v1.5.3 // indirect
+	golang.org/x/net v0.16.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
+	golang.org/x/text v0.13.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20220930163606-c98284e70a91 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20230822172742-b8732ec3820d // indirect
 )
