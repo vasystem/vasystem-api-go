@@ -7,7 +7,7 @@ require (
 	buf.build/gen/go/vasystem/api/protocolbuffers/go v1.31.0-20221008143436-bf31ebf1b0ce.2
 	golang.org/x/oauth2 v0.13.0
 	google.golang.org/grpc v1.59.0
-	google.golang.org/protobuf v1.31.0
+	google.golang.org/protobuf v1.33.0
 )
 
 require (
